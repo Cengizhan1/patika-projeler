@@ -1,0 +1,10 @@
+Aşamalar:
+1. [16, 21, 11, 8, 12, 22] -> Verilen dizi
+2. [16, 21, 11] [8, 12, 22] -> Diziyi ikiye bölme
+3. [16, 21] [11] [8, 12] [22] -> Diziyi daha küçük parçalara bölme
+4. [16] [21] [11] [8] [12] [22] -> Parçaları tek elemanlı dizilere ayırma
+5. [16, 21] [8, 11] [12, 22] -> Parçaları sıralama ve birleştirme
+6. [8, 11, 16, 21, 12, 22] -> Diziyi birleştirme
+7. [8, 11, 12, 16, 21, 22] -> Sıralanmış dizi
+
+Merge Sort algoritmasının karmaşıklığı O(n log n) dir.
