@@ -1,0 +1,20 @@
+Kök düğümü seçiyoruz: 7
+5'i eklemek istiyoruz, kök düğümden küçük olduğu için soluna ekliyoruz:
+1'i eklemek istiyoruz, kök düğümden küçük olduğu için soluna ekliyoruz:
+8'i eklemek istiyoruz, kök düğümden büyük olduğu için sağına ekliyoruz:
+3'ü eklemek istiyoruz, kökten büyük olduğu için önce 5'e sonra 1'e bakarak yerine ekliyoruz:
+6'yı eklemek istiyoruz, kökten büyük olduğu için önce 7'ye sonra 5'e bakarak yerine ekliyoruz:
+0'ı eklemek istiyoruz, kökten küçük olduğu için önce 7'ye sonra 5'e sonra 1'e bakarak yerine ekliyoruz:
+9'u eklemek istiyoruz, kökten büyük olduğu için önce 7'ye sonra 8'e bakarak yerine ekliyoruz:
+4'ü eklemek istiyoruz, kökten büyük olduğu için önce 7'ye sonra 5'e sonra 6'ya bakarak yerine ekliyoruz:
+2'yi eklemek istiyoruz, kökten büyük olduğu için önce 7'ye sonra 5'e sonra 1'e sonra 3'e bakarak yerine ekliyoruz:
+Bu şekilde, istediğiniz gibi bir Binary Search Tree (BST) oluşturulmuş olur.
+          7  
+         / \
+        5   8
+       / \   \
+      1   6   9 
+     /     \
+    0       3
+           / \
+          2   4 
